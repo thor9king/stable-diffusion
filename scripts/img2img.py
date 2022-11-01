@@ -1,6 +1,7 @@
 """make variations of input image"""
 
 import argparse, os, sys, glob
+sys.path.append('../')
 import PIL
 import torch
 import numpy as np
